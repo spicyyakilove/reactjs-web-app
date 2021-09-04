@@ -1,16 +1,13 @@
 import './App.css';
+import Homepage from './Homepage';
 
 function App() {
     return (
         <div className='App'>
-            <header className='App-header'>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className='App-link' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-                    Learn React
-                </a>
-            </header>
+            <Homepage />
+            <div className='Temp'>
+                <h2>This is temporary so i can test the scrollbar.</h2>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #202020;
+    --accent: #c38fff;
+    --primary: #f2f2f2;
+    --secendary: #8f8f8f;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+.btn-color {
+    background-color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+
+.Homepage {
+    width: 100%;
+    height: 100vh;
+    color: var(--primary);
+    background-color: var(--background);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Navbar {
+    background-color: var(--background);
+    opacity: 0.99;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+}
+.NavContent {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProjectName p {
+    font-size: 1.4rem;
+    margin: 0;
+}
+.NavLink {
+    margin-right: 65px;
+}
+.LastNavLink {
+    margin-right: none;
+}
+
+.MainBody {
+    padding-top: 64px;
+}
+.ProjectInfo {
+    text-align: center;
+}
+.ProjectInfo h2 {
+    font-size: 4.75rem;
+    line-height: 75px;
+    font-weight: 600;
+    margin-top: 7%;
+}
+.ProjectInfo h4 {
+    color: var(--secendary);
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-top: 2%;
+}
