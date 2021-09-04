@@ -1,13 +1,13 @@
 import './App.css';
 import Homepage from './Homepage';
+import Signup from './Signup';
 
 function App() {
     return (
         <div className='App'>
             <Homepage />
-            <div className='Temp'>
-                <h2>This is temporary so i can test the scrollbar.</h2>
-            </div>
+            <p> </p>
+            <Signup />
         </div>
     );
 }
