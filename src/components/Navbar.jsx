@@ -19,7 +19,7 @@ export default function Navbar() {
                     <Button className='NavLink btn-secondary btn-sm' style={{ opacity: '100% !important' }}>
                         Navbar Item 3
                     </Button>
-                    <Button className='LastNavLink btn-secondary btn-sm' style={{ opacity: '100% !important' }}>
+                    <Button className='NavLink LastNavLink btn-secondary btn-sm' style={{ opacity: '100% !important' }}>
                         Navbar Item 4
                     </Button>
                 </div>
