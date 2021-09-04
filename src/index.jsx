@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 /*
 TODO:
+Fix react-router not working (/signup)
 Add Login
 Add styling for Homepage, Login, Signup (Responsive)
-Add react-router-dom (Pages)
 */
 
 ReactDOM.render(
