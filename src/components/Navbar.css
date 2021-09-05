@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.NavContent a {
+    text-decoration: none;
+}
+
 .ProjectName p {
     color: var(--text-light-p);
     font-size: 1.4rem;

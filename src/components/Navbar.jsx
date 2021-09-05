@@ -7,11 +7,11 @@ export default function Navbar() {
     return (
         <div className='Navbar'>
             <div className='NavContent'>
-                <Link to='/'>
-                    <div className='ProjectName'>
+                <div className='ProjectName'>
+                    <Link to='/'>
                         <p>PROJECT NAME</p>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
                 <div className='NavLinks'>
                     <Link to='#'>
                         <Button className='NavLink btn-secondary btn-sm' style={{ opacity: '100% !important' }}>
