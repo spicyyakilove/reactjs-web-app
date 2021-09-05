@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere, mi nec laor
 `git clone https://github.com/gwdawson/reactjs-web-app.git`\
 `cd reactjs-web-app`\
 `npm install`\
-`npm run`
+`npm start`
 
 ## License
 
