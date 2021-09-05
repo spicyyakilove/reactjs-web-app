@@ -19,6 +19,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere, mi nec laor
 `Push to the branch (git push origin feature/...)`\
 `Create a new Pull Request`
 
+## Installation
+
+`git clone https://github.com/gwdawson/reactjs-web-app.git`\
+`cd reactjs-web-app`\
+`npm install`\
+`npm run`
+
 ## License
 
 `This project is under the MIT license. See LICENSE for more details.`
