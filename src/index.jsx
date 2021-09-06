@@ -6,9 +6,9 @@ import './index.css';
 
 /* 
 TODO:
-...
-...
-...
+fix 404 on reload
+setup database
+add Users table to database (username, email, password)
 */
 
 ReactDOM.render(
