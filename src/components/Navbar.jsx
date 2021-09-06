@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className='Navbar'>
             <div className='NavContent'>
                 <div className='ProjectName'>
-                    <Link to='/'>
+                    <Link to='/reactjs-web-app'>
                         <p>PROJECT NAME</p>
                     </Link>
                 </div>
@@ -40,7 +40,7 @@ export default function Navbar() {
                             Log in
                         </Button>
                     </Link>
-                    <Link to='/signup'>
+                    <Link to='/reactjs-web-app/signup'>
                         <Button
                             className='btn-color btn btn-primary btn-sm'
                             style={{

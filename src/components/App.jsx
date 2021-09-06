@@ -7,11 +7,13 @@ import './App.css';
 function App() {
     return (
         <Router>
-            <div className='App'>
-                <Navbar />
-                <Route path='/' exact component={Homepage} />
-                <Route path='/signup' component={Signup} />
-            </div>
+            <Switch>
+                <div className='App'>
+                    <Navbar />
+                    <Route path='/reactjs-web-app' exact component={Homepage} />
+                    <Route path='/reactjs-web-app/signup' component={Signup} />
+                </div>
+            </Switch>
         </Router>
     );
 }
